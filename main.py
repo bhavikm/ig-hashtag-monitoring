@@ -7,11 +7,13 @@ def get_hashtags_to_monitor():
 def main():
     hashtags_to_monitor = get_hashtags_to_monitor()
 
+    # get hashtag IDs - https://developers.facebook.com/docs/instagram-api/reference/ig-hashtag
+
     # every x minutes loop:
 
     # for each hashtag
 
-    # get latest posts from hashtag
+    # get latest posts from hashtag - https://developers.facebook.com/docs/instagram-api/reference/ig-user/recently_searched_hashtags
 
     # if post ID not in cache (Redis or advise otherwise)
 
