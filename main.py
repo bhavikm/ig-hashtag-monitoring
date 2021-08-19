@@ -1,4 +1,9 @@
+"""
+Name: main.py
+Description: This script would allow to search for the popular IG Hastags
+Date: Aug-18-2021
 
+"""
 
 def get_hashtags_to_monitor():
     return ['#photostreamdemo', '#trent100']
